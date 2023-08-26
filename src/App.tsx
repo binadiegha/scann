@@ -11,7 +11,7 @@ const App:React.FC = () => {
       <Suspense fallback={<div>Loading...</div>}>
       <Routes>
         <Route path='/' element={<QrScanner />}/>
-        <Route path='/qr-scanner' element={<QrScanner />}/>
+        <Route path='/qr-scanner' element={<Main/>}/>
       </Routes>
       </Suspense>
     </Router>
